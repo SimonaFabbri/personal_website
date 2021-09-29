@@ -5,7 +5,7 @@
   border: 0;
   box-sizing: border-box;
 }
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 1001px) {
   body {
     display: flex;
     justify-content: flex-end;
@@ -87,6 +87,9 @@
   li {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
   }
 
   ul a {
@@ -99,5 +102,6 @@
     display: inline-block;
     vertical-align: middle;
     padding-left: 1em;
+    padding-right: 1em;
   }
 }
