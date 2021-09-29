@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: flex-end;
+}
+.sfondo {
+  background-image: url("BG_Picture.png");
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  background-position: left;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+.contenuto {
+  background-image: linear-gradient(to bottom right, #48003d, #1a2f65);
+  height: 100vh;
+  width: 64.8%;
+  margin-left: 35%;
+}
