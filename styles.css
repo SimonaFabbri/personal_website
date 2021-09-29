@@ -101,22 +101,3 @@
     padding-left: 1em;
   }
 }
-
-@media screen and (max-width: 400px) {
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  .sfondo {
-    background-image: url("BG_Picture.png");
-    background-size: cover;
-    background-position: center;
-    position: static;
-    width: 100vw;
-    height: 27.34vh;
-  }
-  .contenuto {
-    background-image: linear-gradient(to bottom right, #48003d, #1a2f65);
-    height: 100vh;
-  }
-}
