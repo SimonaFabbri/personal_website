@@ -11,7 +11,7 @@ body {
   justify-content: flex-end;
 }
 .sfondo {
-  background-image: url("BG_Picture.png");
+  background-image: url("SF.png");
   background-size: cover;
   background-position: center;
   position: fixed;
@@ -22,22 +22,24 @@ body {
 .contenuto {
   background-image: linear-gradient(to bottom right, #48003d, #1a2f65);
 
-  min-height: 60vh;
-  width: 42%;
-  margin-top: 8.4%;
-  margin-right: 6%;
-  padding-bottom: 7.9%;
-  padding-left: 4.79%;
-  padding-right: 4.79%;
-  padding-top: 7.57%;
+  height: 100vh;
+
+  width: 42vw;
+  margin-top: 8.4vh;
+  margin-right: 6vw;
+  padding-bottom: 8vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 8vh;
 }
 
 .contenuto h1 {
   color: #ffffff;
   font-family: Inter, sans-serif;
   font-size: 40px;
-
+  line-height: 48px;
   font-weight: 600;
+  padding-bottom: 2px;
 }
 .contenuto h2 {
   color: #ffffff;
@@ -45,22 +47,28 @@ body {
   font-size: 24px;
   line-height: 29px;
   font-weight: 500;
-  line-height: 48px;
+  padding-bottom: 49px;
 }
 
 .contenuto p {
-  padding-top: 49px;
-  color: #ffffff;
+  color: #e1dbf4;
   font-family: Inter, sans-serif;
+  font-weight: 200;
   font-size: 18px;
   line-height: 22px;
+  margin-bottom: 49px;
 }
 .contenuto h3 {
   color: #ffffff;
   font-family: Inter, sans-serif;
   font-size: 24px;
   line-height: 29px;
-  padding-top: 49px;
+  display: inline;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 14px;
+  background-color: #190336;
 }
 
 .contenuto a {
@@ -70,28 +78,31 @@ body {
   font-size: 18px;
   line-height: 24px;
 }
-
+.email {
+  margin-bottom: 57px;
+  margin-top: 28px;
+}
 .contenuto h4 {
   color: #ffffff;
   font-family: Inter, sans-serif;
   font-size: 24px;
   line-height: 29px;
-  padding-top: 87px;
+
+  display: inline;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 14px;
+  background-color: #190336;
 }
 
 ul {
   list-style-type: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
-li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: 20px;
+.github {
+  margin-bottom: 33px;
+  margin-top: 28px;
 }
-
 ul a {
   display: flex;
   align-items: center;

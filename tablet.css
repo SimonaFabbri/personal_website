@@ -1,21 +1,51 @@
-body {
-  display: flex;
-  justify-content: flex-end;
-}
-.sfondo {
-  background-image: url("BG_Picture.png");
-  background-size: contain;
-
-  background-repeat: no-repeat;
-  background-position: left;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-}
 .contenuto {
-  background-image: linear-gradient(to bottom right, #48003d, #1a2f65);
-  height: 100vh;
-  width: 64.8%;
-  margin-left: 35%;
+  width: 60vw;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  margin-right: 0vw;
+  padding-bottom: 18vh;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  padding-top: 18vh;
+}
+.contenuto h1 {
+  font-size: 38px;
+  line-height: 40px;
+  padding-bottom: 5px;
+}
+
+.contenuto h2 {
+  font-size: 22px;
+  line-height: 21px;
+  padding-bottom: 43px;
+}
+
+.contenuto p {
+  font-size: 18px;
+  line-height: 19px;
+  margin-bottom: 42px;
+}
+.contenuto h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+.contenuto a {
+  font-size: 16px;
+  line-height: 19px;
+}
+.email {
+  margin-bottom: 46px;
+  margin-top: 21px;
+}
+.contenuto h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+.github {
+  margin-bottom: 30px;
+  margin-top: 21px;
+}
+
+ul a span {
+  line-height: 19px;
 }
