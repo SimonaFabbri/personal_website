@@ -11,7 +11,7 @@ body {
   justify-content: flex-end;
 }
 .sfondo {
-  background-image: url("SF.png");
+  background-image: url("SF.jpg");
   background-size: cover;
   background-position: center;
   position: fixed;
@@ -21,9 +21,7 @@ body {
 }
 .contenuto {
   background-image: linear-gradient(to bottom right, #48003d, #1a2f65);
-
-  height: 100vh;
-
+  height: 80vh;
   width: 42vw;
   margin-top: 8.4vh;
   margin-right: 6vw;
