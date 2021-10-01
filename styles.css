@@ -11,7 +11,7 @@ body {
   justify-content: flex-end;
 }
 .sfondo {
-  background-image: url("SF.jpg");
+  background-image: url("sfondo.jpg");
   background-size: cover;
   background-position: center;
   position: fixed;
