@@ -9,14 +9,15 @@ body {
 }
 
 .contenuto {
+  min-height: inherit;
   width: 100vw;
   margin-top: -20px;
   position: relative;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-top: 7vh;
-  padding-left: 4vw;
-  padding-right: 4vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
   padding-bottom: 7vh;
 }
 
@@ -46,4 +47,16 @@ body {
 .github {
   margin-top: 21px;
   margin-bottom: 29px;
+}
+.email img {
+  width: 28px;
+  height: 20px;
+}
+.github img {
+  width: 26px;
+  height: 26px;
+}
+.linkedin img {
+  width: 26px;
+  height: 26px;
 }
