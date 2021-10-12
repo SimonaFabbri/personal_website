@@ -1,54 +1,54 @@
 .contenuto {
-  width: 55vw;
+  position: fixed;
+  width: 64vw;
   min-height: 100vh;
   margin-top: 0vh;
   margin-right: 0vw;
-
-  padding-left: 9vw;
-  padding-right: 9vw;
-  padding-top: 18vh;
+  margin-left: 36vw;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  padding-bottom: 96px;
 }
 .contenuto h1 {
-  font-size: 38px;
-  line-height: 40px;
-  padding-bottom: 5px;
+  font-size: 36px;
+  line-height: 43.57px;
+  font-weight: 600;
+  padding-bottom: 4px;
 }
 
 .contenuto h2 {
-  font-size: 22px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 24.2px;
   padding-bottom: 43px;
 }
 
 .contenuto p {
-  font-size: 18px;
-  line-height: 19px;
+  font-size: 16px;
+  line-height: 19.36px;
   margin-bottom: 42px;
 }
 .contenuto h3 {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 24.2px;
 }
 .contenuto a {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 19.36px;
 }
 .email {
-  margin-bottom: 46px;
-  margin-top: 21px;
+  margin-bottom: 44px;
+  margin-top: 18px;
 }
 .contenuto h4 {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 24.2px;
 }
 .github {
-  margin-bottom: 30px;
+  margin-bottom: 20.79px;
   margin-top: 21px;
 }
 
-ul a span {
-  line-height: 19px;
-}
 .email img {
   width: 30px;
   height: 20px;

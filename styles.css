@@ -21,76 +21,80 @@ body {
 }
 .contenuto {
   background-image: linear-gradient(to bottom right, #48003d, #1a2f65);
-
-  width: 42vw;
-  margin-top: 8.4vh;
-  margin-right: 6vw;
-  padding-bottom: 8vh;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top: 8vh;
+  width: 46vw;
+  margin-top: 11.82vh;
+  margin-right: 5.83vw;
+  margin-left: 48vw;
+  margin-bottom: 5.57vh;
+  padding-top: 10.64vh;
+  padding-left: 6.67vw;
+  padding-right: 5.42vw;
+  padding-bottom: 12vh;
+  min-height: 82.62vh;
 }
 
 .contenuto h1 {
   color: #ffffff;
   font-family: Inter, sans-serif;
   font-size: 40px;
-  line-height: 48px;
+  line-height: 48.41px;
   font-weight: 600;
-  padding-bottom: 2px;
 }
 .contenuto h2 {
   color: #ffffff;
   font-family: Inter, sans-serif;
+  font-style: normal;
   font-size: 24px;
-  line-height: 29px;
-  font-weight: 500;
+  line-height: 29.05px;
+  font-weight: 400;
   padding-bottom: 49px;
 }
 
 .contenuto p {
   color: #e1dbf4;
   font-family: Inter, sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 49px;
+  line-height: 24px;
+  padding-bottom: 72px;
 }
 .contenuto h3 {
   color: #ffffff;
   font-family: Inter, sans-serif;
+  font-weight: 300;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 29.05px;
   display: inline;
   padding-top: 2px;
   padding-bottom: 2px;
-  padding-left: 8px;
-  padding-right: 14px;
+  padding-left: 7px;
+  padding-right: 16px;
   background-color: #190336;
 }
 
 .contenuto a {
   color: #ea2b92;
   font-family: Inter, sans-serif;
+  font-weight: 300;
   text-decoration: none;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 21.78px;
 }
 .email {
-  margin-bottom: 57px;
-  margin-top: 28px;
+  margin-bottom: 64px;
+  margin-top: 1.95vh;
 }
 .contenuto h4 {
   color: #ffffff;
   font-family: Inter, sans-serif;
+  font-weight: 300;
   font-size: 24px;
-  line-height: 29px;
-
+  line-height: 29.05px;
   display: inline;
   padding-top: 2px;
   padding-bottom: 2px;
-  padding-left: 8px;
-  padding-right: 14px;
+  padding-left: 7px;
+  padding-right: 16px;
   background-color: #190336;
 }
 
@@ -98,8 +102,8 @@ ul {
   list-style-type: none;
 }
 .github {
-  margin-bottom: 33px;
-  margin-top: 28px;
+  margin-bottom: 1.95vh;
+  margin-top: 2.34vh;
 }
 ul a {
   display: flex;
@@ -107,7 +111,7 @@ ul a {
 }
 
 ul a span {
-  line-height: 32px;
+  line-height: 21.78px;
   display: inline-block;
   vertical-align: middle;
   padding-left: 1em;
