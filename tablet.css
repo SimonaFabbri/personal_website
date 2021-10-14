@@ -1,5 +1,12 @@
+.sfondo {
+  background-image: url("photo2.jpg");
+  background-size: 36vw;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 .contenuto {
-  position: fixed;
+  position: absolute;
   width: 64vw;
   min-height: 100vh;
   margin-top: 0vh;
@@ -25,7 +32,7 @@
 
 .contenuto p {
   font-size: 16px;
-  line-height: 19.36px;
+  line-height: 21px;
   margin-bottom: 42px;
 }
 .contenuto h3 {

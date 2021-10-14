@@ -9,12 +9,15 @@
 body {
   display: flex;
   justify-content: flex-end;
+  background-color: black;
 }
 .sfondo {
-  background-image: url("photo.png");
+  background-image: url("photo.gif");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: fixed;
+
   width: 100vw;
   height: 100vh;
   z-index: -1;
@@ -30,7 +33,6 @@ body {
   padding-left: 6.67vw;
   padding-right: 5.42vw;
   padding-bottom: 12vh;
-  min-height: 82.62vh;
 }
 
 .contenuto h1 {
@@ -55,13 +57,13 @@ body {
   font-family: Inter, sans-serif;
   font-weight: 300;
   font-size: 18px;
-  line-height: 24px;
-  padding-bottom: 72px;
+  line-height: 21.78px;
+  padding-bottom: 49px;
 }
 .contenuto h3 {
   color: #ffffff;
   font-family: Inter, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
   line-height: 29.05px;
   display: inline;
@@ -75,26 +77,26 @@ body {
 .contenuto a {
   color: #ea2b92;
   font-family: Inter, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
   font-size: 18px;
   line-height: 21.78px;
 }
 .email {
-  margin-bottom: 64px;
-  margin-top: 1.95vh;
+  margin-bottom: 75px;
+  margin-top: 25px;
 }
 .contenuto h4 {
   color: #ffffff;
   font-family: Inter, sans-serif;
-  font-weight: 300;
   font-size: 24px;
-  line-height: 29.05px;
+  line-height: 29px;
+
   display: inline;
   padding-top: 2px;
   padding-bottom: 2px;
-  padding-left: 7px;
-  padding-right: 16px;
+  padding-left: 8px;
+  padding-right: 14px;
   background-color: #190336;
 }
 
@@ -102,8 +104,8 @@ ul {
   list-style-type: none;
 }
 .github {
-  margin-bottom: 1.95vh;
-  margin-top: 2.34vh;
+  margin-bottom: 21px;
+  margin-top: 24px;
 }
 ul a {
   display: flex;
@@ -111,7 +113,7 @@ ul a {
 }
 
 ul a span {
-  line-height: 21.78px;
+  line-height: 32px;
   display: inline-block;
   vertical-align: middle;
   padding-left: 1em;

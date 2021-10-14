@@ -2,16 +2,19 @@ body {
   flex-direction: column;
 }
 .sfondo {
+  background-image: url("photo1.gif");
   top: 0px;
   height: 27vh;
   width: 100vw;
+  background-size: cover;
+  background-position: center;
 }
 
 .contenuto {
   position: absolute;
   top: 25vh;
   width: 100vw;
-  min-height: 73vh;
+  min-height: 75vh;
   margin-left: 0vw;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
