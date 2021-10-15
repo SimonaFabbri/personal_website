@@ -1,17 +1,11 @@
-.sfondo {
-  background-image: url("photo2.jpg");
-  background-size: 36vw;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
 .contenuto {
   position: absolute;
-  width: 64vw;
+  justify-content: center;
+  width: 60vw;
   min-height: 100vh;
   margin-top: 0vh;
   margin-right: 0vw;
-  margin-left: 36vw;
+  margin-left: 40vw;
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 80px;
